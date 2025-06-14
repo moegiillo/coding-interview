@@ -12,7 +12,7 @@ $ pipenv shell
 $ python manage.py migrate
 
 # Django server 起動
-$ python manage.py runserver
+$ pipenv run start
 ```
 
 ## API テスト
@@ -22,10 +22,9 @@ $ python manage.py runserver
 $ docker compose up --build
 
 # python 仮想環境作成、migration
-$ pipenv sync
+$ pipenv sync --dev
 $ pipenv shell
-$ python manage.py migrate
 
 # テスト実行
-$ python manage.py test -v 2
+$ pipenv run test
 ```

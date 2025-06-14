@@ -13,3 +13,7 @@ freezegun = "*"
 
 [requires]
 python_version = "3.11"
+
+[scripts]
+start = "python manage.py runserver"
+test = "python manage.py test -v 2"

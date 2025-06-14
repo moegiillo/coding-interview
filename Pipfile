@@ -9,6 +9,7 @@ djangorestframework = "*"
 psycopg2 = "*"
 
 [dev-packages]
+freezegun = "*"
 
 [requires]
 python_version = "3.11"
